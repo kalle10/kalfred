@@ -9,5 +9,10 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require bootstrap
+ *= require full-width-pics
  *= require_tree .
  */
+/*body {
+	background: url(/assets/31H.jpg) no-repeat center center fixed; 	
+ }*/

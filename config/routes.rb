@@ -1,4 +1,5 @@
 Kalfred::Application.routes.draw do
+  root 'home#index'
   get "contact/index"
   get "services/index"
   get "about/index"

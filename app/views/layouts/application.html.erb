@@ -3,16 +3,18 @@
 
 <head>
 
-<title>Kalfred</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
+
+<title>Kalfred</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+    
     <title>Full Width Pictures Template for Bootstrap 3</title>
 
     <!-- Bootstrap core CSS -->
@@ -20,7 +22,7 @@
 
     <!-- Custom CSS for the 'Full Width Pics' Template -->
     <link href="css/full-width-pics.css" rel="stylesheet">
-</head>
+
 
 <body>
 
@@ -33,17 +35,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.php">Blah</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><%= link_to 'about', about_index_path %>
+                    <li><%= link_to 'Home', home_index_path %>
                     </li>
-                    <li><%= link_to 'services', services_index_path %>
+                    <li><%= link_to 'About', about_index_path %>
                     </li>
-                    <li><%= link_to 'contact', contact_index_path %>
+                    <li><%= link_to 'Services', services_index_path %>
+                    </li>
+                    <li><%= link_to 'Contact', contact_index_path %>
                     </li>
                 </ul>
             </div>
@@ -57,7 +61,7 @@
         <div class="logo-wrapper">
             <img class="img-responsive" src="http://placehold.it/200x200&text=Logo" />
         </div>
-
+        <%= yield %>
     </div>
     <!-- /full-width-image-1 -->
 
@@ -85,31 +89,3 @@
 </html>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html>
-<head>
-  <title>Kalfred</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
-</html> -->

@@ -1,12 +1,12 @@
 body {
-	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+	margin-top: 100px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
 
 .full-width-image-1 {
 	background: url(http://lorempixel.com/g/1920/500/) no-repeat center center;
 	background-size: cover;
 	text-align: center;
-	padding: 100px 0;
+	
 }
 
 .full-width-image-2 {
