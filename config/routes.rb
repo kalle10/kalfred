@@ -4,6 +4,7 @@ Kalfred::Application.routes.draw do
   get "services/index"
   get "about/index"
   get "home/index"
+  post "contact/contact"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
