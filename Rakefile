@@ -4,3 +4,11 @@
 require File.expand_path('../config/application', __FILE__)
 
 Kalfred::Application.load_tasks
+
+task :deploy do
+  `RAILS_ENV=production bundle exec rake assets:precompile`
+  `git add -A .`
+  `git commit -m 'Precompiled assets'`
+  `git push`
+  `git push heroku master`
+end
