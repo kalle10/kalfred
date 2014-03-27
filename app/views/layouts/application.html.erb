@@ -15,17 +15,8 @@
   <%= csrf_meta_tags %>
 </head>
     
-    <title>Full Width Pictures Template for Bootstrap 3</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom CSS for the 'Full Width Pics' Template -->
-    <link href="css/full-width-pics.css" rel="stylesheet">
-
-
 <body>
-
+    <div class="brand">kalfred</div>
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -55,13 +46,13 @@
         </div>
         <!-- /.container -->
     </nav>
-
+    
     <div class="full-width-image-1">
 
         <div class="logo-wrapper">
-            <img class="img-responsive" src="http://placehold.it/200x200&text=Logo" />
+            <%= image_tag('logo.jpg', size: '150x150', style: "margin-bottom: 350px") %>
         </div>
-        <%= yield %>
+      <%= yield %>  
     </div>
     <!-- /full-width-image-1 -->
 
@@ -71,19 +62,19 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; Company 2013
+                    <p>k.alfred 2014sum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum e
+                    </p>
                 </div>
             </div>
+
         </footer>
     </div>
 
-    </div>
+
     <!-- /container -->
 
     <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-
+   
 </body>
 
 </html>
