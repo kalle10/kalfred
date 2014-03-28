@@ -3,14 +3,15 @@ body {
 }
 
 .full-width-image-1 {
-	background: url(http://lorempixel.com/g/1920/500/) no-repeat center center;
+	background: url(http://lorempixel.com/g/1920/450/) no-repeat center center;
+	
 	background-size: cover;
 	text-align: center;
 	
 }
 
 .full-width-image-2 {
-	background: url(http://lorempixel.com/g/1920/450/) no-repeat center center;
+	background: url(images/pic2.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 	height: 450px;
